@@ -217,6 +217,11 @@ footer {
   display: table;
 }
 
+#zip_code {
+	
+	width: 40%;
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -231,7 +236,7 @@ footer {
 
   label {
     display: inline-block;
-    float: left;
+/*    float: left;*/
     width: 25%;
   }
 
@@ -253,7 +258,7 @@ footer {
   form input,
   form select {
     display: inline-block;
-    float: left;
+/*    float: left;*/
     margin: 1em 0;
     width: 75%;
   }
@@ -267,9 +272,16 @@ footer {
     margin: 16px auto;
   }
 
+/*
   .footer__nav p {
     float: left;
   }
+*/
+
+	#zip_code {
+	
+	width: 40%;
+}
 
 
 } 
